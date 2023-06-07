@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    /* We want everything center, that's why we uses display, justify-content, and align items */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(16, 16, 16);
+    font-family: sans-serif;
+}
+
+/* Because we are going to be with the before, we choose position relative */
+a {
+    text-decoration: none;
+    color: antiquewhite;
+    border: 2px solid antiquewhite;
+    padding: 2rem 5rem;
+    position: relative;
+    overflow: hidden;
+    transition: all 1s;
+}
+
+a:before {
+    content: "DOWNLOAD";
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+    transform: translateY(-100%);
+    transition: all 1s;   
+    /* Center */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a:hover:before {
+    transform: translateY(0);
+}
+
