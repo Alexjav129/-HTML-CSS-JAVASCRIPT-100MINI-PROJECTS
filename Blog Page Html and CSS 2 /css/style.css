@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,400&family=Roboto+Serif:ital,opsz,wght@1,8..144,300&family=Roboto:ital@0;1&display=swap");
+
+html {
+  /* 62.5% of 16px = 10px */
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1140px;
+  text-overflow: wrap;
+  margin: 0 auto;
+  padding: 5rem;
+}
+
+body {
+  margin: 10px;
+  font-family: "PT Serif", "Times New Roman", Times, serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 5.653rem;
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  line-height: 1.1;
+  letter-spacing: -2px;
+  word-spacing: 5px;
+}
+
+h2 {
+  font-size: 3.998rem;
+  margin-top: 2rem;
+}
+
+h3 {
+  font-size: 2.827rem;
+  margin: 5rem 0 0.5rem;
+}
+
+li {
+  font-size: 2rem;
+  font-family: "Roboto Serif", serif;
+}
+
+ul {
+  margin: 3rem 3rem;
+}
+
+p {
+  margin: 2rem 0;
+  font-size: 2rem;
+}
+
+img {
+  width: 100%;
+  height: 40rem;
+  object-fit: cover;
+}
