@@ -1,0 +1,14 @@
+<productsList>
+    <product>
+        <name>Product1</name>
+    </product>
+    <product>
+        <name>Product2</name>
+    </product>
+    <product>
+        <name>Product3</name>
+    </product>
+    <bestProduct>
+        <name>Product4</name>
+    </bestProduct>
+</productsList>
