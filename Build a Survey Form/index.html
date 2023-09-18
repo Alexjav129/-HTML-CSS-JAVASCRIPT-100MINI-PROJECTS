@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+
+
+<header>
+<h1 id="title">Survey</h1>
+<p id="description">Google Engineering Team</p>
+</header>
+
+
+<form id="survey-form">
+  <div id="generalInfo">
+    <label id="name-label" >Name</label>
+    <input required id="name" type="text" placeholder="Type your name"  </input> 
+    
+    <label id="email-label">Email</label>
+    <input required id="email" type="email" placeholder="Type your email"></input>
+
+
+    <label id="number-label">Number</label>
+    <input id="number" type="number" min="7" max="1000" placeholder="number"></input>
+    <!--  Drop Down Menu -->
+    <select id="dropdown">
+      <option>Male</option>
+      <option>Female</option>
+      </select id="dropdown">
+    </div>
+
+    <!--  radio button -->
+    <div class="radiobuttons">
+    <input type="radio" value="swimming" name="swimming">Engineering Team
+    <input type="radio" value="cycling" name="swimming">Back-End Team
+    <input type="radio" value="running" name="swimming">UI Team
+    </div>
+
+    <!--  checkbox -->
+    <div class="radiobuttons">
+<input type="checkbox" value="sports" name="sports">Do you have experience with Next.js?
+<input type="checkbox" value="age" name="age">Do you have experience with Vue.js?
+</div>
+
+
+<!-- Text area -->
+  <textarea></textarea>
+  
+     <div id="generalInfo">
+ <button id="submit" type="submit" >Submit</button>
+   </div>
+</form>
+
+  </body>
+</html>

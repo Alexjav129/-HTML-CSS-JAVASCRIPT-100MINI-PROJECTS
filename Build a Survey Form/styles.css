@@ -1,0 +1,24 @@
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+#generalInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+label,
+select,
+textarea,
+button,
+input {
+  margin-top: 15px;
+}
+
+form {
+  padding-left: 30vw;
+  padding-right: 30vw;
+}
